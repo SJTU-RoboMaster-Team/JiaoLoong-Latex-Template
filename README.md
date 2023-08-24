@@ -135,7 +135,7 @@ SJTUThesis 支持 XeTeX 与 LuaTeX 引擎，字符编码仅支持 UTF-8。
 
 ### 下载模版
 
-普通用户可以直接 `clone` 或者下载 [master.zip](https://github.com/sjtug/SJTUThesis/archive/refs/heads/master.zip)。
+普通用户可以直接 `clone` 或者下载 [master.zip](https://github.com/SJTU-RoboMaster-Team/JiaoLoong-Latex-Template/archive/refs/heads/master.zip)。
 
 ```bash
 git clone https://github.com/sjtug/SJTUThesis.git
@@ -145,7 +145,7 @@ git clone https://github.com/sjtug/SJTUThesis.git
 
 ### Overleaf
 
-如果需要在线 LaTeX 平台上使用（比如 [latex.sjtu.edu.cn](https://latex.sjtu.edu.cn)），您可以下载 [最新版压缩包](https://github.com/sjtug/SJTUThesis/archive/refs/heads/master.zip)，然后上传至相应平台。请注意，Overleaf 默认使用 pdflatex 编译，您需要设置使用 XeLaTeX 编译器。
+如果需要在线 LaTeX 平台上使用（比如 [latex.sjtu.edu.cn](https://latex.sjtu.edu.cn)），您可以下载 [最新版压缩包](https://github.com/SJTU-RoboMaster-Team/JiaoLoong-Latex-Template/archive/refs/heads/master.zip)，然后上传至相应平台。请注意，Overleaf 默认使用 pdflatex 编译，您需要设置使用 XeLaTeX 编译器。
 
 ## 模板使用
 
