@@ -145,7 +145,9 @@ git clone https://github.com/sjtug/SJTUThesis.git
 
 ### Overleaf
 
-如果需要在线 LaTeX 平台上使用（比如 [latex.sjtu.edu.cn](https://latex.sjtu.edu.cn)），您可以下载 [最新版压缩包](https://github.com/SJTU-RoboMaster-Team/JiaoLoong-Latex-Template/archive/refs/heads/master.zip)，然后上传至相应平台。请注意，Overleaf 默认使用 pdflatex 编译，您需要设置使用 XeLaTeX 编译器。
+如果需要在SJTU在线LaTeX平台上阅览次模板，可以直接打开链接[sjtu-latex链接](https://latex.sjtu.edu.cn/project/64e778187850fd00b745413d)。
+
+如果需要在线 LaTeX 平台上使用（比如 [latex.sjtu.edu.cn](https://latex.sjtu.edu.cn)），您也可以下载 [最新版压缩包](https://github.com/SJTU-RoboMaster-Team/JiaoLoong-Latex-Template/archive/refs/heads/master.zip)，然后上传至相应平台。请注意，Overleaf 默认使用 pdflatex 编译，您需要设置使用 XeLaTeX 编译器。
 
 ## 模板使用
 
