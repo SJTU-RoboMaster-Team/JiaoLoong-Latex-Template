@@ -1,0 +1,76 @@
+% !TeX encoding = UTF-8
+
+% 载入 SJTUThesis 模版
+\documentclass[type=technical]{sjtuthesis}
+% 选项
+%   type=[project|technical|lessons],     % 可选（默认：technical），论文类型
+%   zihao=[-4|5],                      % 可选（默认：-4），正文字号大小
+%   lang=[zh|en],                % 可选（默认：zh），论文的主要语言
+%   review,                            % 可选（默认：关闭），盲审模式
+%   [twoside|oneside],                 % 可选（默认：twoside），双页或单页边距模式
+%   [openright|openany],               % 可选（默认：openright），奇数页或任意页开始新章
+%   math-style=[ISO|TeX],              % 可选 (默认：ISO)，数学符号样式
+
+% 论文基本配置，加载宏包等全局配置
+\input{setup}
+
+\begin{document}
+
+%TC:ignore
+
+% 标题页
+\maketitle
+
+% 前置部分
+\frontmatter
+
+% 摘要
+\input{contents/abstract}
+
+% 目录
+\tableofcontents
+% 插图索引
+\listoffigures*
+% 表格索引
+\listoftables*
+% 算法索引
+\listofalgorithms*
+
+% 符号对照表
+\input{contents/nomenclature}
+
+%TC:endignore
+
+% 主体部分
+\mainmatter
+
+% 正文内容
+\input{contents/defination_of_sentry}
+\input{contents/planning_and_execution}
+\input{contents/technical_report}
+\input{contents/experience_sharing}
+\input{contents/result_and_conclusion}
+\input{contents/to_jiaoloonger}
+
+%TC:ignore
+
+% 参考文献
+\printbibliography[heading=bibintoc]
+
+% 附录
+\appendix
+
+% 附录中图表不加入索引
+\captionsetup{list=no}
+
+% 结尾部分
+\backmatter
+
+% 用于盲审的论文需隐去致谢、发表论文、科研成果、简历
+
+% 致谢
+\input{contents/acknowledgements}
+
+%TC:endignore
+
+\end{document}
